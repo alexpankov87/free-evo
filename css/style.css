@@ -528,3 +528,47 @@ h3 {
   margin-top: 20px;
   margin-bottom: 30px;
 }
+
+.how-we-work {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+}
+
+.work-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.title {
+  font-size: 38px;
+}
+
+.work-phone > i {
+  font-size: 64px;
+}
+.work-phone {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+}
+
+.work-shake {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+}
+
+.work-shake > i {
+  font-size: 64px;
+}
+
+.evakuator {
+  max-width: 30%;
+}
