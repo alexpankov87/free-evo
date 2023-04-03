@@ -533,6 +533,14 @@ h3 {
   display: flex;
   justify-content: center;
   font-size: 28px;
+  border-top: 2px solid var(--grey-color);
+  margin-top: 80px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+.how-we-work > h3 {
+  text-decoration: underline;
 }
 
 .work-line {
@@ -571,4 +579,18 @@ h3 {
 
 .evakuator {
   max-width: 30%;
+}
+
+.work-paid > svg {
+  fill: #fff;
+}
+
+.work-paid {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
 }
