@@ -1,0 +1,72 @@
+@media (max-width: 480px) {
+  .header-slogan > h1 {
+    font-size: 19px;
+  }
+
+  .header-slogan > h1,
+  h3 {
+    font-size: 19px;
+  }
+
+  .images-slider {
+    display: none;
+  }
+
+  .title-todo-wrapper {
+    width: 100%;
+  }
+  .gallery-img > img {
+    width: 79%;
+  }
+
+  .contacts-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .logo-text > span {
+    font-size: 12px;
+  }
+
+  .navigation-item-wrapper {
+    flex-direction: column;
+  }
+
+  .phone-text {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .header-slogan {
+    margin-top: 250px;
+  }
+
+  .header-slogan > h1,
+  h3 {
+    font-size: 35px;
+    margin-left: 20px;
+  }
+
+  .our-clients-title > h3 {
+    font-size: 28px;
+    text-decoration: underline;
+  }
+
+  .gallery-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: 33px;
+  }
+
+  .footer-copy > span {
+    font-size: 17px;
+  }
+
+  .title-todo-wrapper {
+    margin-right: 0px;
+  }
+}
