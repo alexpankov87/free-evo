@@ -90,7 +90,7 @@ main {
 .squrele {
   width: 10px;
   height: 10px;
-  background-color: var(--yellow-color);
+  background-color: rgb(233 211 13);
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -218,7 +218,7 @@ h3 {
 }
 
 .header-slogan > h1 > span {
-  color: var(--yellow-color);
+  color: rgb(233 211 13);
 }
 .main-body-wrapper-service {
   display: -webkit-box;
@@ -321,7 +321,7 @@ h3 {
   margin-block-start: 0.13em;
   -webkit-margin-after: 0.13em;
   margin-block-end: 0.13em;
-  color: var(--yellow-color);
+  color: rgb(233 211 13);
 }
 .block-wrapper {
   display: -webkit-box;
@@ -644,4 +644,16 @@ h3 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-top: 30px;
+}
+
+.social > a:hover > svg {
+  fill: aqua;
+}
+
+.whatsapp-icon {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
