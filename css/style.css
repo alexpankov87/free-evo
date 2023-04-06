@@ -646,14 +646,34 @@ h3 {
   margin-top: 30px;
 }
 
-.social > a:hover > svg {
-  fill: aqua;
-}
-
 .whatsapp-icon {
   display: flex;
   align-items: center;
   align-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.akeconsa-udaneles {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 9;
+}
+.akeconsa-udaneles a {
+  height: 42px;
+  width: 42px;
+  text-align: center;
+  background: #e9d30d;
+  display: block;
+  border-radius: 2px solid var(--grey-color);
+}
+.akeconsa-udaneles a > i {
+  color: #636060;
+  font-size: 30px;
+  line-height: 42px;
+  cursor: pointer;
 }
