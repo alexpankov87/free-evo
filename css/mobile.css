@@ -128,8 +128,36 @@
     padding: 20px;
   }
 }
-
-@media (max-width: 320px) {
+@media screen and (max-width: 372px) {
+  .logo-text > span {
+    font-size: 19px;
+  }
+  .logo-text .social {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .phone-text > a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 19px;
+  }
+  .call-button > a {
+    margin-left: 5px;
+    padding: 16px 16px;
+    font-size: 17px;
+  }
+  .header-slogan > h1,
+  h3 {
+    font-size: 21px;
+    padding-left: 20px;
+  }
+  .navigation-item-wrapper {
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
   .logo-text > span {
     font-size: 12px;
   }
