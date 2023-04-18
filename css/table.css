@@ -1,10 +1,24 @@
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .logo-text {
     margin-left: 100px;
   }
 
   .navigation-item-wrapper {
     margin-right: 70px;
+  }
+  .header-slogan > h1,
+  h3 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .navigation-item-wrapper {
+    margin-right: 20px;
+  }
+  .logo-text {
+    margin-left: 69px;
+    margin-bottom: 20px;
   }
 }
 
@@ -138,7 +152,21 @@
     padding-bottom: 10px;
   }
 }
+@media screen and (max-width: 942px) {
+  .navigation-item-wrapper {
+    margin-right: 10px;
+  }
+}
 
+@media screen and (max-width: 932px) {
+  .navigation {
+    justify-content: center;
+  }
+
+  .header-slogan {
+    margin-top: 200px;
+  }
+}
 @media screen and (max-width: 768px) {
   .header-slogan > h1 {
     display: -webkit-box;
