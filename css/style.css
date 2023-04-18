@@ -558,6 +558,7 @@ h3 {
 
 .how-we-work > h3 {
   text-decoration: underline;
+  text-shadow: -6px 1px 6px rgb(233 211 13 / 62%);
 }
 
 .work-line {
