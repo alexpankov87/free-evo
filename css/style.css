@@ -70,6 +70,13 @@ main {
   -o-border-image: url(img/lenta.svg) 10 / 10px / 10px round;
   border-image: url(img/lenta.svg) 10 / 10px / 10px round;
 }
+.squrele {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(233 211 13);
+  margin-left: 5px;
+  margin-right: 5px;
+}
 
 .logo-text {
   display: -webkit-box;
@@ -87,17 +94,45 @@ main {
   flex-wrap: wrap;
   margin-left: 240px;
   margin-bottom: 20px;
-}
-.squrele {
-  width: 10px;
-  height: 10px;
-  background-color: rgb(233 211 13);
-  margin-left: 5px;
-  margin-right: 5px;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #bfe2ff, 0 0 0.5em #bfe2ff,
+    0 0 0.1em #bfe2ff;
 }
 
 .logo-text > span {
   font-size: 24px;
+  animation: neon linear infinite 3s;
+}
+@keyframes neon {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79% {
+    color: rgb(233 211 13);
+  }
+  80% {
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: rgb(233 211 13);
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: rgb(233 211 13);
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
 }
 
 .logo-text .social {
