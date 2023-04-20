@@ -128,6 +128,58 @@
     padding: 20px;
   }
 }
+@media screen and (max-width: 375px) {
+  .header-slogan > h1 {
+    font-size: 22px;
+  }
+  .header-slogan > h3 {
+    padding: 20px;
+    font-size: 22px;
+  }
+  .call-button > a {
+    padding: 16px 16px;
+    margin-left: 12px;
+  }
+  .logo-text > span {
+    font-size: 18px;
+  }
+  .logo-text .social {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .gallery-img {
+    margin-left: 40px;
+  }
+  .header-slogan {
+    margin-top: 210px;
+    margin-bottom: 20px;
+  }
+  .title {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .evakuator {
+    max-width: 30%;
+    padding-bottom: 5px;
+  }
+  .work-shake > i {
+    font-size: 50px;
+  }
+  .work-paid > span {
+    font-size: 20px;
+  }
+  .work-phone {
+    font-size: 20px;
+    margin-right: 0px;
+  }
+  .work-shake {
+    margin-right: 0px;
+  }
+  .instagram-icon > h4 {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+  }
+}
 @media screen and (max-width: 372px) {
   .logo-text > span {
     font-size: 19px;
@@ -156,6 +208,31 @@
     margin-right: 0px;
     margin-left: 20px;
   }
+  .title {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .evakuator {
+    max-width: 30%;
+    padding-bottom: 5px;
+  }
+  .work-shake > i {
+    font-size: 50px;
+  }
+  .work-paid > span {
+    font-size: 20px;
+  }
+  .work-phone {
+    font-size: 20px;
+    margin-right: 0px;
+  }
+  .work-shake {
+    margin-right: 0px;
+  }
+  .instagram-icon > h4 {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+  }
 }
 @media screen and (max-width: 320px) {
   .logo-text > span {
@@ -180,7 +257,7 @@
   .header-slogan > h1,
   h3 {
     font-size: 29px;
-    margin-left: 20px;
+    padding-left: 0px;
   }
 
   .our-clients-title > h3 {
@@ -285,5 +362,10 @@
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
+  }
+
+  .instagram-icon > h4 {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
   }
 }

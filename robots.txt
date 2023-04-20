@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /css/img
+
+User-agent: Yandex
+Allow: /
+Sitemap: https://eva-krg.kz/sitemap.xml
