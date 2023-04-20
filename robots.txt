@@ -1,5 +1,5 @@
 User-agent: *
-
+Sitemap: https://eva-krg.kz/sitemap.xml
 Disallow: /css/img
 
 User-agent: Yandex
