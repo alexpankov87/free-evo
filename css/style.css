@@ -8,7 +8,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 
 :root {
-  --yellow-color: rgb(56 207 116);
+  --green-color: rgb(56 207 116);
   --grey-color: rgba(255, 255, 255, 0.479);
 }
 *,
@@ -219,15 +219,14 @@ main {
   font-size: 24px;
 }
 .phone-text > a:hover {
-  color: var(--yellow-color);
+  color: var(--green-color);
 }
 
 .call-button > a {
   font-size: 18px;
   padding: 16px 29px;
-  background: #4b0f0d;
+  background: var(--green-color);
   border-radius: 25px;
-  /* border: 1px solid var(--yellow-color); */
   cursor: pointer;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
@@ -254,7 +253,7 @@ main {
   -webkit-transition-delay: 0.2s;
   -o-transition-delay: 0.2s;
   transition-delay: 0.2s;
-  background-color: var(--yellow-color);
+  background-color: var(--green-color);
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -342,7 +341,7 @@ h3 {
 }
 
 .title-todo-wrapper > a {
-  background-color: var(--yellow-color);
+  background-color: var(--green-color);
   padding: 19px 26px;
   border: none;
   border-radius: 5px;
@@ -535,7 +534,7 @@ h3 {
 }
 
 .contacts-phone > a:hover {
-  color: var(--yellow-color);
+  color: var(--green-color);
 }
 
 .btn {
@@ -545,7 +544,7 @@ h3 {
 .btn > a {
   border-radius: 5px;
   font-size: 18px;
-  background: var(--yellow-color);
+  background: var(--green-color);
   padding: 19px 29px;
   text-decoration: none;
   color: #fff;
